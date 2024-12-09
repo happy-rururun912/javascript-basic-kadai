@@ -1,4 +1,4 @@
 const double = (num) => {
-  return num * 10;
+  return num * num;
 }
-console.log(double(10));
+console.log(double(20));
