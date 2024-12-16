@@ -1,7 +1,7 @@
 $(function() {
   //色が変わる
 $('#change-color').on('click',function() {
-  $('#target').addClass('sample');
+  $('#target').css('color','blue')
 });
 
   //文字が切り替わる
